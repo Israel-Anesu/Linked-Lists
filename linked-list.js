@@ -129,7 +129,6 @@ const ListNode = (value = null, nextNode = null) => {
     }
   }
   
-  // Test Script
   const list = LinkedList();
   list.append(5);
   list.append(6);
@@ -139,8 +138,7 @@ const ListNode = (value = null, nextNode = null) => {
   list.prepend(8);
   list.insertAt(3, 1);
   list.pop();
-  list.removeAt(4);
-  
+  list.removeAt(4);  
   console.log(list.size);
   console.log(list.head);
   console.log(list.at(1));
